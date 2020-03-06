@@ -31,7 +31,7 @@ android:
     #- extra-google-m2repository
     #- extra-android-m2repository
 
-    # Specify at least one system image,
+    # Specify at least one system image,123
     # if you need to run emulator(s) during your tests
     #- sys-img-x86-android-29
     #- sys-img-armeabi-v7a-android-17
