@@ -39,9 +39,9 @@ before_script:
   - git clone https://github.com/flutter/flutter.git -b stable
   - export PATH="$PATH:`pwd`/flutter/bin"
   - flutter precache
-  - ./flutter/bin/flutter doctor
+  - flutter doctor
 script:
     #- which java
     - ant -version
     #- find / -xdev \( -name ant -o -name mvn -o -name gradle \)
-    - ./flutter/bin/flutter test
+    - flutter test
